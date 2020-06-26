@@ -16,7 +16,6 @@
       <view class="search-input" wx:else>{{placeHolder}}</view>
       <image bindtap="onClear" class="close-btn" src="https://cloud-minapp-16269.cloud.ifanrusercontent.com/product-image-close.svg" wx:if="{{searchKey}}"></image>
     </view>
-
   </view>
   <view class="tab-content">
     <view class="index">

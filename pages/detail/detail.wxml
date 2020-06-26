@@ -107,7 +107,7 @@
           <button wx:else class="userLogin" bindtap="bindFavTap" id="{{detail.id}}" ></button>
         </view>
         <view class="bottom-btn bottom-comment-container">
-          <image class="bottom-btn bottom-fav" src="{{detail.islike?'../../images/liked.png':'../../images/like.png'}}"></image>
+          <image class="bottom-btn bottom-fav" src="{{detail.islike?'../../im·  ages/liked.png':'../../images/like.png'}}"></image>
           <button wx:if="{{!user}}" class="userLogin" bindgetuserinfo="getProfile" openType="getUserInfo"></button>
           <button wx:else class="userLogin" bindtap="bindLikeTap" id="{{detail.id}}"></button>
         </view>
